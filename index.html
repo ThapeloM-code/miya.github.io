@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+</head>
+
+<body>
+
+    <!-- Page Loader Start -->
+
+    <div class="page-loader">
+        <div class="page-loader-inner">
+            <div class="circle"></div>
+            Loading
+        </div>
+    </div>
+
+    <!-- Page Loader End -->
+
+    <!-- Background animation effect Start -->
+    <div class="bg-animation-effect"></div>
+    <!-- Background animation effect End -->
+
+    <!-- Overlay Effect Start -->
+
+    <div class="overlay-effect">
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+    </div>
+
+    <!-- Overlay Effect Start -->
+
+    <!-- Header Start -->
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end ">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <!-- Nav -->
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li>
+                                <a href="#about" class="nav-item link-item">about</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="nav-item link-item">portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="nav-item link-item">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- About section start -->
+    <section class="about-secton active" id="about">
+        <div class="container">
+            <div class="row min-vh-100">
+                <div class="about-content">
+                    <img src="./Img/profile-.jpg" alt="profile-img">
+                    <h1>Hi, My name is Thapelo David</h1>
+                    <p>I'm a <span>junior front end  developer</span> in living Alberton, Johannesburg. I am a confident individual with a friendly personality, drive, energy, and enthusiasm. Passionate about writting clean and well-versed code, that takes
+                        pride in their work and isn't afraid of any challenges. I have keen ability to learn and can work with little to no supervision. Keen to gain more experience in frond end development. I make web applications using <span>html</span>,
+                        <span>css</span>, <span>javascript</span>, <span>bootstrap</span>, <span>react</span>. Check out my latest work on the <a href="#portfolio" class="link-item">portfolio page</a>. Want to talk about projects? You can get in touch
+                        with me <a href="#contact" class="link-item">here</a>.</p>
+                    <h2>skills</h2>
+                    <div class="skills">
+                        <div class="skill-item">html</div>
+                        <div class="skill-item">css</div>
+                        <div class="skill-item">javascript</div>
+                        <div class="skill-item">react</div>
+                        <div class="skill-item">bootstrap</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section End -->
+
+
+    <!-- Portfolio section Start -->
+    <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>recent works</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-filter">
+                    <button type="button" title="Showl All Works" class="portfolio-filter-btn active" data-filter="all">all</button>
+                    <button type="button" title="Filter by Front-End" class="portfolio-filter-btn" data-filter="front-end">front-end</button>
+                    <button type="button" title="Filter by React" class="portfolio-filter-btn" data-filter="react">react</button>
+                    <button type="button" title="Filter by bootstrap" class="portfolio-filter-btn" data-filter="bootstrap">bootstrap</button>
+                </div>
+                <div class="filter-status">
+                    <p></p>
+                </div>
+            </div>
+            <div class="row portfolio-items">
+                <!-- porfolio item start -->
+                <div class="portfolio-item" data-category="front-end">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./Img/Porfolio/project 01.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Random quote machine</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Time to put my newly learnt skills to work. By working on these projects, i used a chance to apply all of the skills, principles, and concepts i have learned so far: HTML, CSS, Visual Design, Accessibility, and more.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created - <span>13 July 2021</span></p>
+                            <p>Technologies used - <span>HTML, CSS, JavaScript</span></p>
+                            <p>Role - <span>Front-End</span></p>
+                            <p>View online - <span><a href="#" target="_blank">www.codepen.io/David_Miya/full/RwgbeeY</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- porfolio item end -->
+
+                <!-- porfolio item start -->
+                <div class="portfolio-item" data-category="front-end, bootstrap">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./Img/Porfolio/project 02.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Javascript form validation</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Time to put my newly learnt skills to work. By working on these projects, i used a chance to apply all of the skills, principles, and concepts i have learned so far: HTML, CSS, Visual Design, Accessibility, and more.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created - <span>08 Nov 2021</span></p>
+                            <p>Technologies used - <span>HTML, CSS, JavaScript</span></p>
+                            <p>Role - <span>Front-End</span></p>
+                            <p>View online - <span><a href="#" target="_blank">www.codepen.io/David_Miya/full/Badx7Nb</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- porfolio item end -->
+
+                <!-- porfolio item satrt -->
+                <div class="portfolio-item" data-category="react">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./Img/Porfolio/project 03.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">iphone calculator</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Time to put my newly learnt skills to work. By working on these projects, i used a chance to apply all of the skills, principles, and concepts i have learned so far: HTML, CSS, Visual Design, Accessibility, and more.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created - <span>13 Oct 2021</span></p>
+                            <p>Technologies used - <span>HTML, CSS, ReactJs</span></p>
+                            <p>Role - <span>Front-End</span></p>
+                            <p>View online - <span><a href="#" target="_blank">www.codepen.io/David_Miya/full/QWMbZLY</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- porfolio item end -->
+
+                <!-- porfolio item satrt -->
+                <div class="portfolio-item" data-category="front-end, react">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./Img/Porfolio/project 04.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">Pomodoro clock</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Time to put my newly learnt skills to work. By working on these projects, i used a chance to apply all of the skills, principles, and concepts i have learned so far: HTML, CSS, Visual Design, Accessibility, and more.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created - <span>21 Oct 2021</span></p>
+                            <p>Technologies used - <span>HTML, CSS, ReactJs</span></p>
+                            <p>Role - <span>Front-End</span></p>
+                            <p>View online - <span><a href="#" target="_blank">www.codepen.io/David_Miya/full/bGrwjYj</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- porfolio item end -->
+
+                <!-- porfolio item satrt -->
+                <div class="portfolio-item" data-category="front-end, react">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./Img/Porfolio/project 05.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">personal portfolio</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Time to put my newly learnt skills to work. By working on these projects, i used a chance to apply all of the skills, principles, and concepts i have learned so far: HTML, CSS, Visual Design, Accessibility, and more.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created - <span>19 Oct 2021</span></p>
+                            <p>Technologies used - <span>HTML, CSS</span></p>
+                            <p>Role - <span>Front-End</span></p>
+                            <p>View online - <span><a href="#" target="_blank">www.codepen.io/David_Miya/full/rNzLGXX</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- porfolio item end -->
+
+                <!-- porfolio item satrt -->
+                <div class="portfolio-item" data-category="front-end ,react">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="./Img/Porfolio/project 06.jpg" alt="thumbnail">
+                        <button type="button" class="btn more-info-btn">more info</button>
+                    </div>
+                    <h3 class="portfolio-item-title">25 + 5 clock</h3>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Time to put my newly learnt skills to work. By working on these projects, i used a chance to apply all of the skills, principles, and concepts i have learned so far: HTML, CSS, Visual Design, Accessibility, and more.</p>
+                        </div>
+                        <div class="general-info">
+                            <p>Created - <span>25 Jan 2021</span></p>
+                            <p>Technologies used - <span>HTML, CSS, ReactJs</span></p>
+                            <p>Role - <span>Front-End</span></p>
+                            <p>View online - <span><a href="#" target="_blank">www.codepen.io/David_Miya/full/VwzpNjK</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- porfolio item end -->
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio section end -->
+
+    <!-- Contact Section Start -->
+
+    <section class="contact-section sec-padding min-vh-100" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Contact me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-content">
+                    <div class="content-text">
+                        <p>For any futher communication please contact me on the following</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <p>Email me on <span>miyathapelo31@gmail.com</span></p>
+                    </div>
+                    <div class="contact-info-item">
+                        <p class="social-links">
+                            <span>Find me on</span>
+                            <a href="https://www.facebook.com/david.thapelo.5"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://github.com/ThapeloM-code"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/thapelo-david-miya-202b2791"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.youtube.com/channel/UC9v6_DahgJZUHx0dQgFi71A"><i class="fab fa-youtube"></i></a>
+                        </p>
+                    </div>
+                    <button type="button" class="btn toggle-contact-form-btn">Send message</button>
+                </div>
+
+                <!-- Contact Form Start -->
+                <div class="contact-form">
+                    <div class="contact-form-inner">
+                        <div class="contact-form-container">
+                            <button type="button" class="close-btn toggle-contact-form-btn"></button>
+                            <form>
+                                <div class="row">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="Your name" class="input-control">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" placeholder="Your Email" class="input-control">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" placeholder="Subject" class="input-control">
+                                    </div>
+                                    <div class="input-group">
+                                        <textarea placeholder="Message" class="input-control"></textarea>
+                                    </div>
+                                    <div class="input-group">
+                                        <button type="submit" class="btn btn-submit">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form Start -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+
+
+    <!--Portfolio item details popup start  -->
+    <div class="portfolio-popup">
+        <div class="pp-overlay"></div>
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <h2 class="pp-counter">
+                    </h2>
+                    <button type="button" title="close" class="close-btn pp-close-btn"></button>
+                    <div class="pp-thumbnail">
+                        <img src="/IMG/project 04.jpg" alt="pp-thumbnail"></div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                </div>
+                <div class="pp-footer">
+                    <div class="pp-footer-left hidden">
+                        <button type="button" title="Prev Work" class="btn pp-prev-btn">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <h3></h3>
+                        <img src="/IMG/project 04.jpg" alt="prev work thumbnail">
+                    </div>
+                    <div class="pp-footer-right hidden">
+                        <button type="button" title="Next Work" class="btn pp-next-btn">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <h3></h3>
+                        <img src="/IMG/project 04.jpg" alt="next work thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio item details popup end  -->
+
+    <script src="Js/main.js"></script>
+</body>
+
+
+</html>
